@@ -44,14 +44,20 @@ While Logistic Regression worked well for linearly separable data, KNN provided 
 Frontend Interface: A simple, user-friendly interface was developed using Streamlit, allowing users to input various features such as age, gender, and H1N1 worry level.
 Backend Integration: The KNN model is integrated into the app, where it takes user inputs and provides a prediction regarding the likelihood of the individual getting vaccinated.
 Visualization: Implemented visualizations like correlation heatmaps and bar plots to help users understand which factors contribute most to the predictions.
+
+
 Results
 Model Performance: After hyperparameter tuning, the KNN model achieved:
 Accuracy: 81% on the test set.
 F1-score: 0.49 (for the minority class of those who took the vaccine).
 Precision and Recall: Reasonable precision and recall for predicting both vaccinated and non-vaccinated individuals.
+
+
 Insights:
 Worry about H1N1 and doctor’s recommendation were among the strongest predictors of vaccine uptake.
 Chronic medical condition and age group also showed significant correlation with vaccine behavior.
 Application Impact: The Streamlit app provides real-time predictions and allows health organizations to quickly assess the likelihood of vaccination for different population segments. This can inform better-targeted campaigns and resource allocation.
+
+
 Conclusion
 By combining machine learning with interactive visualizations, the project has built a robust system for predicting vaccination behavior. The KNN model performed well after tuning and the Streamlit application offers an accessible interface for end users, helping to optimize vaccination efforts. This approach can be expanded to different vaccines or public health campaigns.   
